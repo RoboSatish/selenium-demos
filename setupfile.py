@@ -22,15 +22,7 @@ class demoFindId():
         #driver.find_element(By.CLASS_NAME,"email-login-box").send_keys("sat@gmail.com")
         #driver.find_element(By.CSS_SELECTOR,"#login-continue-btn").click()
         d1 = driver.find_elements(By.TAG_NAME,"input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        print(len(d1))
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        d1 = driver.find_elements(By.TAG_NAME, "input")
-        print(len(d1))
+
 
 
         time.sleep(5)
