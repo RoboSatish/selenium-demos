@@ -31,6 +31,9 @@ class demoFindId():
         d1 = driver.find_elements(By.TAG_NAME, "input")
         d1 = driver.find_elements(By.TAG_NAME, "input")
         print(len(d1))
+        print(len(d1))
+        print(len(d1))
+        print(len(d1))
 
         time.sleep(5)
         driver.close()
